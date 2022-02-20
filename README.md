@@ -1,6 +1,7 @@
 # Aprimoring React Skills (no pun intended)
 
-#### 1- Setting up environment | 01:00:59
+## Chapter I
+#### 1- Setting up environment
 - [x] Intro
 - [x] Environment structure
 - [x] Babel
@@ -12,23 +13,23 @@
 - [x] Development and production environment
 - [x] SASS
 
-#### 2- React - Keys concepts | 00:35:25
+#### 2- React - Keys concepts
 - [ ] First component
 - [ ] Properties in React
 - [ ] Component state
 - [ ] Component immutability
 - [ ] Webpack Fast Refresh
 
-#### 3- HTTP requests | 00:21:15
+#### 3- HTTP requests
 - [ ] Styling listing
 - [ ] useEffect
 - [ ] Listing repos
 
-#### TypeScript | 00:37:32
+#### 4- TypeScript
 - [ ] TS fundamentals
 - [ ] TS in React
 - [ ] TS components
 
-#### App | 00:37:32
+#### 5- App
 - [ ] TS fundamentals
 - [ ] TS in React
