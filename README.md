@@ -14,11 +14,11 @@
 - [x] SASS
 
 #### 2- React - Keys concepts
-- [ ] First component
-- [ ] Properties in React
-- [ ] Component state
-- [ ] Component immutability
-- [ ] Webpack Fast Refresh
+- [x] First component
+- [x] Properties in React
+- [x] Component state
+- [x] Component immutability
+- [x] Webpack Fast Refresh
 
 #### 3- HTTP requests
 - [ ] Styling listing
