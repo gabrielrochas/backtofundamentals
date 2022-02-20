@@ -21,9 +21,9 @@
 - [x] Webpack Fast Refresh
 
 #### 3- HTTP requests
-- [ ] Styling listing
-- [ ] useEffect
-- [ ] Listing repos
+- [x] Styling listing
+- [x] useEffect
+- [x] Listing repos
 
 #### 4- TypeScript
 - [ ] TS fundamentals
