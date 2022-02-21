@@ -26,8 +26,8 @@
 - [x] Listing repos
 
 #### 4- TypeScript
-- [ ] TS fundamentals
-- [ ] TS in React
+- [x] TS fundamentals
+- [x] TS in React
 - [ ] TS components
 
 #### 5- App
