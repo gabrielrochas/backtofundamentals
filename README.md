@@ -28,7 +28,7 @@
 #### 4- TypeScript
 - [x] TS fundamentals
 - [x] TS in React
-- [ ] TS components
+- [x] TS components
 
 #### 5- App
 - [ ] TS fundamentals
