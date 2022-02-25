@@ -33,7 +33,7 @@
 - [x] TS fundamentals
 - [x] TS in React
 
-[Chalenge 01 - React Concepts](https://github.com/gabrielrochas/rckt-chlg-react-concepts)
+[Chalenge 01 - React Concepts](https://github.com/gabrielrochas/rckt-chlg-react-concepts)  
 [Chalenge 02 - React Components](https://github.com/gabrielrochas/rckt-chlg-react-components)
 
 ## Chapter II
@@ -50,6 +50,31 @@
 - [x] TransactionsTable component
 
 ## Chapter III
+#### 3- API
+- [ ] Frontend without backend
+- [ ] MirageJS
+- [ ] Axios
+
+#### 4- Modal & Forms
+- [ ] TransactionModal
+- [ ] Form structure
+- [ ] Modal style
+- [ ] Type botton
+- [ ] Botton settings
+- [ ] Saving data
+- [ ] Inserting API transaction
+- [ ] Listing API transactions
+- [ ] Formating values
+
+#### 5- Context & Hooks
+- [ ] Context - intro
+- [ ] Context API in React
+- [ ] Loading data
+- [ ] Refactoring to Context
+- [ ] Finalizing insection
+- [ ] Balance
+- [ ] My own hook
+
 ## Chapter IV
 ## Chapter V
 ## Chapter VI
