@@ -2,7 +2,6 @@
 
 ## Chapter I
 #### 1- Setting up environment
-- [x] Intro
 - [x] Environment structure
 - [x] Babel
 - [x] Webpack
@@ -31,10 +30,25 @@
 - [x] TS components
 
 #### 5- App
-- [ ] TS fundamentals
-- [ ] TS in React
+- [x] TS fundamentals
+- [x] TS in React
+
+[Chalenge 01 - React Concepts](https://github.com/gabrielrochas/rckt-chlg-react-concepts)
+[Chalenge 02 - React Components](https://github.com/gabrielrochas/rckt-chlg-react-components)
 
 ## Chapter II
+#### 1- App structure
+- [ ] create-react-app structure
+- [ ] Figma exporting assets
+- [ ] Styled Compents
+- [ ] Global styles
+- [ ] Google Fonts
+
+#### 2- Componentization
+- [ ] Header component
+- [ ] Summary component
+- [ ] TransactionsTable component
+
 ## Chapter III
 ## Chapter IV
 ## Chapter V
