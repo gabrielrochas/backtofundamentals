@@ -38,16 +38,16 @@
 
 ## Chapter II
 #### 1- App structure
-- [ ] create-react-app structure
-- [ ] Figma exporting assets
-- [ ] Styled Compents
-- [ ] Global styles
-- [ ] Google Fonts
+- [x] create-react-app structure
+- [x] Figma exporting assets
+- [x] Styled Compents
+- [x] Global styles
+- [x] Google Fonts
 
 #### 2- Componentization
-- [ ] Header component
-- [ ] Summary component
-- [ ] TransactionsTable component
+- [x] Header component
+- [x] Summary component
+- [x] TransactionsTable component
 
 ## Chapter III
 ## Chapter IV
