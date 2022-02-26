@@ -5,18 +5,21 @@ import { GlobalStyle } from './styles/global';
 
 import { Header } from './components/Header';
 import { Dashboard } from './components/Dashboard';
+import { NewTransactionModal } from './components/common/NewTransactionModal';
 
 Modal.setAppElement('#root');
 
 export function App() {
   const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] =
     useState(false);
+
   function handleOpenNewTransactionModalOpen() {
     setIsNewTransactionModalOpen(true);
   }
   function handleCloseNewTransactionModalOpen() {
     setIsNewTransactionModalOpen(false);
   }
+  
   return (
     <>
       <GlobalStyle />
@@ -24,12 +27,11 @@ export function App() {
         onOpenNewTransactionNewModal={handleOpenNewTransactionModalOpen}
       />
       <Dashboard />
-      <Modal
+
+      <NewTransactionModal
         isOpen={isNewTransactionModalOpen}
         onRequestClose={handleCloseNewTransactionModalOpen}
-      >
-        <h2>Cadastrar coisas</h2>
-      </Modal>
+      />
     </>
   );
 }
