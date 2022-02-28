@@ -36,12 +36,22 @@ export function NewTransactionModal({
         <h2>Cadastrar coisas</h2>
         <input type='text' placeholder='Description' />
         <TransactionTypeContainer>
-          <RadioBox type='button' onClick={() => setType('deposit')} isActive={type === 'deposit'} >
+          <RadioBox
+            type='button'
+            onClick={() => setType('deposit')}
+            isActive={type === 'deposit'}
+            activeColor='green'
+          >
             <img src={incomeImg} alt='income' />
             <span>Income</span>
           </RadioBox>
 
-          <RadioBox type='button' onClick={() => setType('withdraw')} isActive={type === 'withdraw'} >
+          <RadioBox
+            type='button'
+            onClick={() => setType('withdraw')}
+            isActive={type === 'withdraw'}
+            activeColor='red'
+          >
             <img src={outcomeImg} alt='outncome' />
             <span>Outcome</span>
           </RadioBox>
