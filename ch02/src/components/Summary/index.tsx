@@ -9,6 +9,30 @@ import { Container } from './styles';
 export function Summary() {
   const { transactions } = useContext(TransactionsContext);
 
+  const summary = transactions.reduce(
+    (acc, transaction) => {
+      if (transaction.type === 'deposit') {
+        acc.deposits += transaction.amount;
+        acc.total += transaction.amount;
+      } else {
+        acc.withdraws += transaction.amount;
+        acc.total -= transaction.amount;
+      }
+
+      return acc;
+    },
+    { deposits: 0, withdraws: 0, total: 0 }
+  );
+
+  function convertValues(value: number) {
+    const test = new Intl.NumberFormat('pt-BR', {
+      style: 'currency',
+      currency: 'BRL',
+    }).format(value);
+
+    return test;
+  }
+
   return (
     <Container>
       <div>
@@ -16,21 +40,21 @@ export function Summary() {
           <p>Income</p>
           <img src={incomeImg} alt='income' />
         </header>
-        <strong>R$1000,00</strong>
+        <strong>{convertValues(summary.deposits)}</strong>
       </div>
       <div>
         <header>
           <p>Outcome</p>
           <img src={outcomeImg} alt='outcome' />
         </header>
-        <strong>-R$100,00</strong>
+        <strong>-{convertValues(summary.withdraws)}</strong>
       </div>
       <div className='highlight-background'>
         <header>
           <p>Total</p>
           <img src={totalImg} alt='total' />
         </header>
-        <strong>R$900,00</strong>
+        <strong>{convertValues(summary.total)}</strong>
       </div>
     </Container>
   );
