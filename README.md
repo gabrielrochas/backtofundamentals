@@ -51,16 +51,16 @@
 
 ## Chapter III
 #### 3- API
-- [ ] Frontend without backend
-- [ ] MirageJS
-- [ ] Axios
+- [x] Frontend without backend
+- [x] MirageJS
+- [x] Axios
 
 #### 4- Modal & Forms
-- [ ] TransactionModal
-- [ ] Form structure
-- [ ] Modal style
-- [ ] Type botton
-- [ ] Botton settings
+- [x] TransactionModal
+- [x] Form structure
+- [x] Modal style
+- [x] Type botton
+- [x] Botton settings
 - [ ] Saving data
 - [ ] Inserting API transaction
 - [ ] Listing API transactions
