@@ -69,11 +69,11 @@
 #### 5- Context & Hooks
 - [x] Context - intro
 - [x] Context API in React
-- [ ] Loading data
-- [ ] Refactoring to Context
-- [ ] Finalizing insection
-- [ ] Balance
-- [ ] My own hook
+- [x] Loading data
+- [x] Refactoring to Context
+- [x] Finalizing insection
+- [x] Balance
+- [x] My own hook
 
 ## Chapter IV
 ## Chapter V
