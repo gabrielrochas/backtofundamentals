@@ -61,10 +61,10 @@
 - [x] Modal style
 - [x] Type botton
 - [x] Botton settings
-- [ ] Saving data
-- [ ] Inserting API transaction
-- [ ] Listing API transactions
-- [ ] Formating values
+- [x] Saving data
+- [x] Inserting API transaction
+- [x] Listing API transactions
+- [x] Formating values
 
 #### 5- Context & Hooks
 - [ ] Context - intro

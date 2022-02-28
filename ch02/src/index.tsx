@@ -27,6 +27,14 @@ createServer({
           amount: 4000,
           createdAt: new Date('2022-01-31 10:00:00'),
         },
+        {
+          id: 3,
+          title: 'Rent',
+          type: 'withdraw',
+          category: 'Home',
+          amount: 1000,
+          createdAt: new Date('2022-01-28 10:00:00'),
+        },
       ],
     });
   },
