@@ -67,8 +67,8 @@
 - [x] Formating values
 
 #### 5- Context & Hooks
-- [ ] Context - intro
-- [ ] Context API in React
+- [x] Context - intro
+- [x] Context API in React
 - [ ] Loading data
 - [ ] Refactoring to Context
 - [ ] Finalizing insection
