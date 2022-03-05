@@ -1,6 +1,6 @@
 # Aprimoring React Skills (no pun intended)
 
-## Chapter I
+## Chapter I - React Fundamentals
 
 #### 1- Setting up environment
 
@@ -42,7 +42,7 @@
 [Chalenge 01 - React Concepts](https://github.com/gabrielrochas/rckt-chlg-react-concepts)  
 [Chalenge 02 - React Components](https://github.com/gabrielrochas/rckt-chlg-react-components)
 
-## Chapter II
+## Chapter II - React App
 
 #### 1- App structure
 
@@ -89,10 +89,11 @@
 [Chalenge 03 - React Hooks](https://github.com/gabrielrochas/rckt-chlg-react-context)
 [Chalenge 04 - Refactoring Classes to Hook with Typescript](https://github.com/gabrielrochas/rckt-chlg-react-refactoring)
 
-## Chapter III
+## Chapter III - Next.js Fundamentals
 
-## Chapter IV
 
-## Chapter V
+## Chapter IV - Backend on Frontend
 
-## Chapter VI
+## Chapter V - Frontend JAMStack
+
+## Chapter VI - Building Future Interfaces
