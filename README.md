@@ -91,6 +91,29 @@
 
 ## Chapter III - Next.js Fundamentals
 
+#### 1- App Structure
+
+- [] Application flow
+- [] Next.js fundamentals
+- [] Building Next.js Structure
+- [] Adding Typescript
+- [] Stylizing with SASS
+- [] Setting external font
+- [] Page dynamic Title
+- [] Global styles
+
+#### 2- Components and Pages
+
+- [] Header component
+- [] SignInButton component
+- [] Home page
+- [] SubscribeButton component
+
+#### 3- API Integration
+
+- [] Stripe settings
+- [] Consuming Stripe API (SSR)
+- [] Static Site Generation (SSG)
 
 ## Chapter IV - Backend on Frontend
 
