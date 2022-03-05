@@ -1,7 +1,9 @@
 # Aprimoring React Skills (no pun intended)
 
 ## Chapter I
+
 #### 1- Setting up environment
+
 - [x] Environment structure
 - [x] Babel
 - [x] Webpack
@@ -13,6 +15,7 @@
 - [x] SASS
 
 #### 2- React - Keys concepts
+
 - [x] First component
 - [x] Properties in React
 - [x] Component state
@@ -20,16 +23,19 @@
 - [x] Webpack Fast Refresh
 
 #### 3- HTTP requests
+
 - [x] Styling listing
 - [x] useEffect
 - [x] Listing repos
 
 #### 4- TypeScript
+
 - [x] TS fundamentals
 - [x] TS in React
 - [x] TS components
 
 #### 5- App
+
 - [x] TS fundamentals
 - [x] TS in React
 
@@ -37,7 +43,9 @@
 [Chalenge 02 - React Components](https://github.com/gabrielrochas/rckt-chlg-react-components)
 
 ## Chapter II
+
 #### 1- App structure
+
 - [x] create-react-app structure
 - [x] Figma exporting assets
 - [x] Styled Compents
@@ -45,17 +53,19 @@
 - [x] Google Fonts
 
 #### 2- Componentization
+
 - [x] Header component
 - [x] Summary component
 - [x] TransactionsTable component
 
-## Chapter III
 #### 3- API
+
 - [x] Frontend without backend
 - [x] MirageJS
 - [x] Axios
 
 #### 4- Modal & Forms
+
 - [x] TransactionModal
 - [x] Form structure
 - [x] Modal style
@@ -67,6 +77,7 @@
 - [x] Formating values
 
 #### 5- Context & Hooks
+
 - [x] Context - intro
 - [x] Context API in React
 - [x] Loading data
@@ -75,6 +86,13 @@
 - [x] Balance
 - [x] My own hook
 
+[Chalenge 03 - React Hooks](https://github.com/gabrielrochas/rckt-chlg-react-context)
+[Chalenge 04 - Refactoring Classes to Hook with Typescript](https://github.com/gabrielrochas/rckt-chlg-react-refactoring)
+
+## Chapter III
+
 ## Chapter IV
+
 ## Chapter V
+
 ## Chapter VI
