@@ -93,21 +93,21 @@
 
 #### 1- App Structure
 
-- [ ] Application flow
-- [ ] Next.js fundamentals
-- [ ] Building Next.js Structure
-- [ ] Adding Typescript
-- [ ] Stylizing with SASS
-- [ ] Setting external font
-- [ ] Page dynamic Title
-- [ ] Global styles
+- [x] Application flow
+- [x] Next.js fundamentals
+- [x] Building Next.js Structure
+- [x] Adding Typescript
+- [x] Stylizing with SASS
+- [x] Setting external font
+- [x] Page dynamic Title
+- [x] Global styles
 
 #### 2- Components and Pages
 
-- [ ] Header component
-- [ ] SignInButton component
-- [ ] Home page
-- [ ] SubscribeButton component
+- [x] Header component
+- [x] SignInButton component
+- [x] Home page
+- [x] SubscribeButton component
 
 #### 3- API Integration
 
