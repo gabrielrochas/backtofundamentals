@@ -111,8 +111,8 @@
 
 #### 3- API Integration
 
-- [ ] Stripe settings
-- [ ] Consuming Stripe API (SSR)
+- [x] Stripe settings
+- [x] Consuming Stripe API (SSR)
 - [ ] Static Site Generation (SSG)
 
 ## Chapter IV - Backend on Frontend
