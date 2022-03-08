@@ -113,9 +113,38 @@
 
 - [x] Stripe settings
 - [x] Consuming Stripe API (SSR)
-- [ ] Static Site Generation (SSG)
+- [x] Static Site Generation (SSG)
 
 ## Chapter IV - Backend on Frontend
+
+#### 1- Next.js API Routes
+
+- [x] API route with Next.js
+- [x] Authentication strategies
+- [x] Routes parameterization
+- [x] Next Auth authentication
+
+#### 2- FaunaDB
+
+- [ ] Chosing database
+- [ ] Setting FaunaDB
+- [ ] Settings in GitHub
+- [ ] Save user in database
+- [ ] JWT private key
+- [ ] Check duplicated users
+
+#### 3- Stipe
+
+- [ ] Generating
+- [ ] Redirect to Stripe
+- [ ] Sending duplications to Stripe
+
+#### 4- Listening Webhooks
+
+- [ ] Stripe webhook
+- [ ] Listening Stripe events
+- [ ] Save event data
+- [ ] Listening other events
 
 ## Chapter V - Frontend JAMStack
 
