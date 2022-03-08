@@ -126,8 +126,8 @@
 
 #### 2- FaunaDB
 
-- [ ] Chosing database
-- [ ] Setting FaunaDB
+- [x] Choosing database
+- [x] Setting FaunaDB
 - [ ] Settings in GitHub
 - [ ] Save user in database
 - [ ] JWT private key
