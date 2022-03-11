@@ -128,10 +128,8 @@
 
 - [x] Choosing database
 - [x] Setting FaunaDB
-- [ ] Settings in GitHub
-- [ ] Save user in database
-- [ ] JWT private key
-- [ ] Check duplicated users
+- [x] Save user in database
+- [x] Check duplicated users
 
 #### 3- Stipe
 
