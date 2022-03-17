@@ -133,14 +133,14 @@
 
 #### 3- Stipe
 
-- [ ] Generating
-- [ ] Redirect to Stripe
-- [ ] Sending duplications to Stripe
+- [x] Generating
+- [x] Redirect to Stripe
+- [x] Avoid send duplications to Stripe
 
 #### 4- Listening Webhooks
 
-- [ ] Stripe webhook
-- [ ] Listening Stripe events
+- [x] Stripe webhook
+- [x] Listening Stripe events
 - [ ] Save event data
 - [ ] Listening other events
 
