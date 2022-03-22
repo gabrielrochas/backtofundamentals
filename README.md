@@ -141,8 +141,8 @@
 
 - [x] Stripe webhook
 - [x] Listening Stripe events
-- [ ] Save event data
-- [ ] Listening other events
+- [x] Save event data
+- [x] Listening other events
 
 ## Chapter V - Frontend JAMStack
 
