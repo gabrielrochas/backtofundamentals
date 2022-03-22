@@ -146,4 +146,21 @@
 
 ## Chapter V - Frontend JAMStack
 
+#### 1- Working with a CMS
+
+- [ ] Choosing a CMS
+- [ ] Setting up Prismic CMS
+- [ ] Page: Posts
+- [ ] Consuming Prismic API
+- [ ] Display posts list
+- [ ] Nav menu
+- [ ] Component: ActiveLink
+
+#### 2- Static pages
+
+- [ ] Page: Post
+- [ ] Check active subscription
+- [ ] Page: Post preview
+- [ ] Generating static previews
+
 ## Chapter VI - Building Future Interfaces
