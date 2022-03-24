@@ -148,9 +148,9 @@
 
 #### 1- Working with a CMS
 
-- [ ] Choosing a CMS
-- [ ] Setting up Prismic CMS
-- [ ] Page: Posts
+- [x] Choosing a CMS
+- [x] Setting up Prismic CMS
+- [x] Page: Posts
 - [ ] Consuming Prismic API
 - [ ] Display posts list
 - [ ] Nav menu
