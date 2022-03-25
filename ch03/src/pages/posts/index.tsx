@@ -1,10 +1,20 @@
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
-import { getPrismicClient } from '../../services/prismic';
+import { asText } from '@prismicio/helpers';
 import { getAllPosts } from '../../utils/queries';
 import styles from './styles.module.scss';
 
-export default function Posts() {
+type Post = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  updatedAt: string;
+};
+interface Posts {
+  posts: Post[];
+}
+
+export default function Posts({ posts }: Posts) {
   return (
     <>
       <Head>
@@ -13,33 +23,13 @@ export default function Posts() {
 
       <main className={styles.container}>
         <div className={styles.posts}>
-          <a href='#'>
-            <time>22 de março de 2022</time>
-            <strong>This a new post</strong>
-            <p>
-              lorem ipsum dolor sit amet lorem, consectetur lorem, sed diam
-              lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem,
-              consectetur lorem, sed diam lorem ipsum dolor sit amet
-            </p>
-          </a>
-          <a href='#'>
-            <time>22 de março de 2022</time>
-            <strong>This a new post</strong>
-            <p>
-              lorem ipsum dolor sit amet lorem, consectetur lorem, sed diam
-              lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem,
-              consectetur lorem, sed diam lorem ipsum dolor sit amet
-            </p>
-          </a>
-          <a href='#'>
-            <time>22 de março de 2022</time>
-            <strong>This a new post</strong>
-            <p>
-              lorem ipsum dolor sit amet lorem, consectetur lorem, sed diam
-              lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem,
-              consectetur lorem, sed diam lorem ipsum dolor sit amet
-            </p>
-          </a>
+          {posts.map((post) => (
+            <a href='#' key={post.title}>
+              <time>{post.updatedAt}</time>
+              <strong>{post.title}</strong>
+              <p>{post.excerpt}</p>
+            </a>
+          ))}
         </div>
       </main>
     </>
@@ -47,12 +37,26 @@ export default function Posts() {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const posts = await getAllPosts()
-  console.log(posts)
+  const data = await getAllPosts();
+
+  const posts = data.map((post) => {
+    return {
+      slug: post.uid,
+      title: asText(post.data.title),
+      excerpt:
+        post.data.content.find((content) => content.type === 'paragraph')
+          ?.text ?? '',
+      updatedAt: new Date(post.last_publication_date).toLocaleString('en', {
+        day: '2-digit',
+        month: 'long',
+        year: 'numeric',
+      }),
+    };
+  });
 
   return {
     props: {
-      posts: posts
-    }
-  }
-}
+      posts,
+    },
+  };
+};
