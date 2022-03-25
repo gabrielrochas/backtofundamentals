@@ -152,7 +152,7 @@
 - [x] Setting up Prismic CMS
 - [x] Page: Posts
 - [x] Consuming Prismic API
-- [ ] Display posts list
+- [x] Display posts list
 - [ ] Nav menu
 - [ ] Component: ActiveLink
 
