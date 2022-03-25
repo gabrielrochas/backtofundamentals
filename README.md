@@ -153,8 +153,8 @@
 - [x] Page: Posts
 - [x] Consuming Prismic API
 - [x] Display posts list
-- [ ] Nav menu
-- [ ] Component: ActiveLink
+- [x] Nav menu
+- [x] Component: ActiveLink
 
 #### 2- Static pages
 
