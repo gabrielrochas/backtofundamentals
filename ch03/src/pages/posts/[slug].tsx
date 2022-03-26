@@ -38,11 +38,17 @@ export default function Post({ post }: PostProps) {
 }
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  console.log('props', context);
   const session = await getSession({ req: context.req });
   const slug = context.params.slug;
-  // if (!session) {
-  // }
+
+  if (!session.activeSubscription) {
+    return {
+      redirect: {
+        destination: '/',
+        permanent: false
+      }
+    }
+  }
 
   const response = await getSinglePost(String(slug));
 
