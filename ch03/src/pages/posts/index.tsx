@@ -1,7 +1,10 @@
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
+import Link from 'next/link';
 import { asText } from '@prismicio/helpers';
+
 import { getAllPosts } from '../../utils/queries';
+
 import styles from './styles.module.scss';
 
 type Post = {
@@ -24,11 +27,13 @@ export default function Posts({ posts }: Posts) {
       <main className={styles.container}>
         <div className={styles.posts}>
           {posts.map((post) => (
-            <a href='#' key={post.title}>
-              <time>{post.updatedAt}</time>
-              <strong>{post.title}</strong>
-              <p>{post.excerpt}</p>
-            </a>
+            <Link href={`/posts/${post.slug}`} key={post.title}>
+              <a>
+                <time>{post.updatedAt}</time>
+                <strong>{post.title}</strong>
+                <p>{post.excerpt}</p>
+              </a>
+            </Link>
           ))}
         </div>
       </main>
