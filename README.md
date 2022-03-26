@@ -158,7 +158,7 @@
 
 #### 2- Static pages
 
-- [ ] Page: Post
+- [x] Page: Post
 - [ ] Check active subscription
 - [ ] Page: Post preview
 - [ ] Generating static previews
