@@ -159,8 +159,8 @@
 #### 2- Static pages
 
 - [x] Page: Post
-- [ ] Check active subscription
-- [ ] Page: Post preview
-- [ ] Generating static previews
+- [x] Check active subscription
+- [x] Page: Post preview
+- [x] Generating static previews
 
 ## Chapter VI - Building Future Interfaces
