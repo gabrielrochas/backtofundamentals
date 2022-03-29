@@ -163,4 +163,46 @@
 - [x] Page: Post preview
 - [x] Generating static previews
 
-## Chapter VI - Building Future Interfaces
+## Chapter VI - Building Interfaces of the Future
+
+#### 1- Project settings
+
+- [ ] Declative interface
+- [ ] Next.js project
+- [ ] Chakra UI settings
+- [ ] Setting up fonts
+
+#### 2- Login and Dashboard
+
+- [ ] Page: Signin
+- [ ] Component: Input
+- [ ] Building the Header
+- [ ] Finishing the Header
+- [ ] Component: Sidebar
+- [ ] Page: Dashboard
+
+#### 3- Users control
+
+- [ ] Page: Users list
+- [ ] Component: Pagination
+- [ ] Page: Users forms
+
+#### 4- Responsiveness
+
+- [ ] Components division
+- [ ] Chakra responsiveness
+- [ ] Responsive Header
+- [ ] Responsive Sidebar
+- [ ] Responsive Dashboard
+- [ ] Responsive Listing
+- [ ] Responsive Sign Up
+- [ ] Navigation flow
+- [ ] Sinalizing active link
+
+#### 5- Forms and validation
+
+- [ ] React Forms
+- [ ] React Hook Form updater
+- [ ] Form authentication
+- [ ] Data validation
+- [ ] User form creation
