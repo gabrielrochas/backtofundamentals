@@ -1,10 +1,11 @@
+import { Flex } from '@chakra-ui/react';
 import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <Flex>
       <h1>dashgo</h1>
-    </div>
+    </Flex>
   );
 };
 

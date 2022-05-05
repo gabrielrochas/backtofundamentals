@@ -13,14 +13,18 @@ export const theme = extendTheme({
       '200': '#b3b5c6',
       '100': '#d1d2dc',
       '50': '#eeeef2',
-    }
+    },
+  },
+  fonts: {
+    heading: 'Roboto',
+    body: 'Roboto',
   },
   styles: {
     global: {
       body: {
         bg: 'gray.900',
-        color: 'gray.50'
-      }
-    }
-  }
-})
+        color: 'gray.50',
+      },
+    },
+  },
+});
