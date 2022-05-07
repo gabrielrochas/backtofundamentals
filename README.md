@@ -167,16 +167,15 @@
 
 #### 1- Project settings
 
-- [ ] Declative interface
-- [ ] Next.js project
-- [ ] Chakra UI settings
-- [ ] Setting up fonts
+- [x] Next.js project
+- [x] Chakra UI settings
+- [x] Setting up fonts
 
 #### 2- Login and Dashboard
 
-- [ ] Page: Signin
-- [ ] Component: Input
-- [ ] Building the Header
+- [x] Page: Signin
+- [x] Component: Input
+- [x] Building the Header
 - [ ] Finishing the Header
 - [ ] Component: Sidebar
 - [ ] Page: Dashboard
