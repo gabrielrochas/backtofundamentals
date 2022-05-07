@@ -17,7 +17,6 @@ export function Input({ name, label, ...rest }: InputProps) {
       <ChakraInput
         name={name}
         id={name}
-        type="password"
         border="none"
         bg="gray.900"
         size="lg"
