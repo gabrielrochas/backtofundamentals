@@ -1,4 +1,13 @@
-import { Avatar, Box, Flex, HStack, Icon, Input, Text } from '@chakra-ui/react';
+import {
+  Avatar,
+  Box,
+  Flex,
+  Hide,
+  HStack,
+  Icon,
+  Input,
+  Text,
+} from '@chakra-ui/react';
 import {
   RiNotificationLine,
   RiSearchLine,
@@ -17,12 +26,14 @@ export default function Header() {
       px="6"
       align="center"
     >
-      <Text fontSize="3xl" fontWeight="bold" letterSpacing="tight">
-        ailta
-        <Text as="span" color="linkedin.500" ml="1">
-          .
+      <Box w="64">
+        <Text fontSize="3xl" fontWeight="bold" letterSpacing="tight">
+          ailta
+          <Text as="span" color="linkedin.500" ml="1">
+            .
+          </Text>
         </Text>
-      </Text>
+      </Box>
 
       <Flex
         as="label"
@@ -63,13 +74,15 @@ export default function Header() {
         </HStack>
 
         <Flex align="center">
-          <Box mr="4" textAlign="right">
-            <Text>Gabriel Rocha</Text>
+          <Hide below="md">
+            <Box mr="4" textAlign="right">
+              <Text>Gabriel Rocha</Text>
 
-            <Text color="gray.300" fontSize="small">
-              gabriel.rochaas@gmail.com
-            </Text>
-          </Box>
+              <Text color="gray.300" fontSize="small">
+                gabriel.rochaas@gmail.com
+              </Text>
+            </Box>
+          </Hide>
 
           <Avatar
             name="Gabriel Rocha"
