@@ -63,13 +63,13 @@ export default function Dashboard() {
         <Sidebar />
 
         <SimpleGrid flex="1" gap="4" minChildWidth="320px">
-          <Box p="8" bg="gray.800" borderRadius={8} pb='4'>
+          <Box p={['6', '8']} bg="gray.800" borderRadius={8} pb='4'>
             <Text fontSize="lg" mb="4">
               Week Sales
             </Text>
             <Chart series={series} options={options} type="bar" height={160} />
           </Box>
-          <Box p="8" bg="gray.800" borderRadius={8}>
+          <Box p={['6', '8']} bg="gray.800" borderRadius={8}>
             <Text fontSize="lg" mb="4">
               Production
             </Text>

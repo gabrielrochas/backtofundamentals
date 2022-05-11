@@ -1,14 +1,17 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Text } from '@chakra-ui/react';
 
 export function Logo() {
   return (
-    <Box w="64">
-      <Text fontSize="3xl" fontWeight="bold" letterSpacing="tight">
-        ailta
-        <Text as="span" color="linkedin.500" ml="1">
-          .
-        </Text>
+    <Text
+      fontSize={['2xl', '3xl']}
+      fontWeight="bold"
+      letterSpacing="tight"
+      w="64"
+    >
+      ailta
+      <Text as="span" color="linkedin.500" ml="1">
+        .
       </Text>
-    </Box>
+    </Text>
   );
 }

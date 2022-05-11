@@ -5,9 +5,9 @@ export function NotificationNav() {
   return (
     <Flex align="center" ml="auto">
       <HStack
-        spacing="4"
-        mx="8"
-        pr="8"
+        spacing={['4', '6']}
+        mx={['4', '6']}
+        pr={['4', '6']}
         py="1"
         color="gray.300"
         borderRightWidth={1}
